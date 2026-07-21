@@ -1,3 +1,10 @@
+/*
+ * Problem: Find the Missing Number in an Array (1 to N).
+ * Logic: Calculates expected sum of numbers 1 to N using formula N*(N+1)/2.
+ * Then loops through the array to find the actual sum of given inputs.
+ * The difference (expectedSum - actualSum) gives the missing number.
+ */
+
 package practice21;
 
 import java.util.Scanner;
